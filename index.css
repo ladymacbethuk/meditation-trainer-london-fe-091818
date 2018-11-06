@@ -1,0 +1,59 @@
+
+
+.mainnav {
+    width: 95vw;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #000000;
+    font-family: Courier New;
+    font-size: 300%;
+    text-align: center;
+    border-style: solid;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+#breath {
+  border: 1px solid black;
+  border-collapse: separate;
+  float: left;
+  width: 45%;
+  height: 500px;
+  text-align: center;
+}
+
+#stats {
+  border: 1px solid black;
+  border-collapse: collapse;
+  float: right;
+  width: 45%;
+  height: 500px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  
+}
+
+.button {
+  width: 45%;
+  height: 50px;
+}
+
+.wrapper {
+  width: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper { width: 960px; }
+}
