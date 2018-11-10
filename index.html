@@ -4,10 +4,10 @@
 	  <meta charset="UTF-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <link rel="stylesheet" type="text/css" href="index.css">
-	  <link rel="stylesheet" type="text/css" href="index.js">
 	  <title>Meditation Trainer</title>
 	</head>
 	<body>
+	  <script src="index.js"></script>
 	  <div class='wrapper'>
   	  <header>
   	    <div class="mainnav">
@@ -22,15 +22,15 @@
           </tr>
           <tr>
             <td>1</td>
-            <td>2 sec</td>
+            <td id="1"></td>
           </tr>
           <tr>
             <td>2</td>
-            <td>3 sec</td>
+            <td id="2"></td>
           </tr>
           <tr>
             <td>3</td>
-            <td>4 sec</td>
+            <td id="3"></td>
           </tr>
         </table>
         <p> </p>
@@ -39,22 +39,20 @@
             <th>STATS</th>
           </tr>
           <tr>
-            <td>Mean ...</td>
+            <td id="mean">Mean ...</td>
           </tr>
            <tr>
-            <td>Median ...</td>
+            <td id="median">Median ...</td>
           </tr>
            <tr>
-            <td>Mode ...</td>
+            <td id="mode">Mode ...</td>
           </tr>
            <tr>
-            <td>Std. Dev. ...</td>
+            <td id="sd">Std. Dev. ...</td>
           </tr>
         </table>
       </div>
-      <div>
-        <button onclick="myFunction()" class="button">START INHALE</button>
-      </div>
+      <button onclick="myFunction()" class="button" id="button2">START INHALE</button>
       <input type="text" id="myText">
   	 </main>
   	</div>

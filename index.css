@@ -50,6 +50,12 @@ table, td, th {
   height: 50px;
 }
 
+#myText {
+  width: 45%;
+  height: 50px;
+  float: right;
+}
+
 .wrapper {
   width: 90%;
 }
